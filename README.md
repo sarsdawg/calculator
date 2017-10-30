@@ -28,7 +28,7 @@ This method converts between binary, octal, decimal, hexadecimal, and floating p
 ##    getBase
 This method asks the user which base they want to work with: binary, octal, decimal, hexadecimal, or floating point numbers.  The result of the chosen operation will appear in the same base as the base chosen for the operation's arguments.  This method was a necessary addition to get JavaAppMath to work properly with Calculator.java.
 ##    argCheck
-This method performs error checking to ensure that the arguments match the chosen base and that they are formatted correctly.  This method was a necessary addition to get JavaAppMath to work properly with Calculator.java.
+This method performs error checking to ensure that the arguments match the chosen base, and that they are formatted correctly.  This method was a necessary addition to get JavaAppMath to work properly with Calculator.java.
 
 
 
