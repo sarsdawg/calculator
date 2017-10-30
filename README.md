@@ -8,8 +8,8 @@ This repository includes the source (.java) and binary (.class) files for both t
 I was able to reuse JavaAppMath with only one minor edit to the source code, which was commenting out the original package name.  In this regard, it was relatively easy to use.  However, I did add a significant amount of error checking and type conversion to my code in Calculator.java to get it to work seamlessly.
 
 ## Description of Calculator.java
-  
-  #main 
+
+  # main 
   The main method runs a continual loop that lets the user choose the operation that she wants to perform.
 
 
