@@ -297,23 +297,6 @@ public class Calculator {
 							baseOutName + " = " + showResult(calc, baseOut));
 		System.out.println();
 	} //end conversion
-		
-	private static String showResult(JavaAppMath calc, int base) {
-		switch(base) {
-			case(2):
-				return calc.getBinResult();
-			case(8):
-				return calc.getOctResult();
-			case(10):
-				return Integer.toString(calc.getIntResult());
-			case(16):
-				return calc.getHexResult();
-			case(0):
-				return Float.toString(calc.getFloatResult());
-			default:
-				return "Unknown Error";
-		}
-	} //end showResult
 	
 	private static int getBase(String message, Scanner scan) {
 		while(true) {
@@ -348,14 +331,14 @@ public class Calculator {
 					return(0);
 				default:
 					System.out.println();
-					System.out.println("Invalid entry. Please enter"
+					System.out.println("Invalid entry. Please enter "
 							+ "B, O, D, H, or F.");
 					break;
 			} //end switch
 		}//end while
 	}
 	
-	// Check string input to ensure that it parses as a the indicated base type.
+	// Check string input to ensure that it parses as the indicated base type.
 	private static boolean argCheck(int base, String arg) {
 		int len = arg.length();
 		char c;
@@ -475,4 +458,20 @@ public class Calculator {
 		return true;
 	} //end argCheck
 	
+	private static String showResult(JavaAppMath calc, int base) {
+		switch(base) {
+			case(2):
+				return calc.getBinResult();
+			case(8):
+				return calc.getOctResult();
+			case(10):
+				return Integer.toString(calc.getIntResult());
+			case(16):
+				return calc.getHexResult();
+			case(0):
+				return Float.toString(calc.getFloatResult());
+			default:
+				return "Unknown Error";
+		}
+	} //end showResult
 }
