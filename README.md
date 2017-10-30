@@ -10,6 +10,26 @@ I was able to reuse JavaAppMath with only one minor edit to the source code, whi
 # Description of Calculator.java
 
 ##    main 
-      The main method runs a continual loop that lets the user choose the operation that she wants to perform.
+      This method runs a continual loop that lets the user choose the operation to perform.  It then calls the respective method for the chosen operation.
+##    addition
+      This method performs addition.
+##    subtraction
+      This method performs subtraction.
+##    multiplication
+      This method performs multiplication.
+##    division
+      This method performs division.
+##    squareRoot
+      This method finds the square root of a number.
+##    exponentiation
+      This method raises a number to a certain power.
+##    conversion
+      This method converts between binary, octal, decimal, hexadecimal, and floating point numbers.
+##    getBase
+      This method asks the user which base they want to work with: binary, octal, decimal, hexadecimal, or floating point numbers.  The result of the chosen operation will appear in the same base as the base chosen for the opearation's arguments.  This method was a necessary addition to get JavaAppMath to work properly with Calculator.java.
+##    argCheck
+      This method performs error checking to ensure that the arguments match the chosen base and that they are formatted correctly.  This method was a necessary addition to get JavaAppMath to work properly with Calculator.java.
+
+
 
 
