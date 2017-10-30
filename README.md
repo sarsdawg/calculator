@@ -2,7 +2,7 @@
 This Java program is a simple arithmetic calculator that utilizes the JavaAppMath class by paalonge located at https://github.com/paalonge/seng560Alonge_1.
 
 # Using the Calculator
-This repository includes the Java source files for both the Calculator and JavaAppMath classes.  The Calculator class includes a main method that runs the program in a user interactive mode on the Java terminal.  You can run the program in an integrated development environment such as Eclipse IDE, or from the command line by first running `javac Calculator.java` and then running `java Calculator`.  Before doing this, ensure that Calculator.java and JavaAppMath.java are in the same folder, and that the necessary system environment variables include the JRE location.
+This repository includes the Java source files for both the Calculator and JavaAppMath classes.  The Calculator class includes a main method that runs the program in a user interactive mode on the Java terminal.  You can run the program in an integrated development environment such as Eclipse IDE, or from the command line by first running `javac Calculator.java`, and then running `java Calculator`.  Before doing this, ensure that Calculator.java and JavaAppMath.java are in the same folder, and that the necessary system environment variables include the JRE location.
 
 # Reuse of JavaAppMath
 I was able to reuse JavaAppMath with only one minor edit to the source code, which was commenting out the original package name.  In this regard, it was relatively easy to reuse.  However, I did add a significant amount of error checking and input clarification to my code in Calculator.java to get it to work seamlessly (see getBase and argCheck below).
